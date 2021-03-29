@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi welcome to Pizza Hut!!!"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="What would you like to eat?"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+    <CheckBox
+        android:id="@+id/pizza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Pizza">
+
+    </CheckBox>
+    <CheckBox
+        android:id="@+id/coffee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Coffee">
+
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/burger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="30dp"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Burger">
+
+    </CheckBox>
+
+    <Button
+        android:onClick="ButtonCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        ></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="70dp"
+        android:text="Visit Again!!"
+        android:textSize="25dp"></TextView>
+
+
+</LinearLayout>
